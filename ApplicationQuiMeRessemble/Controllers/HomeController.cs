@@ -15,20 +15,20 @@ namespace ApplicationQuiMeRessemble.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Cette page parle de moi";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Voici où j'habite";
 
             return View();
         }
         public ActionResult Hobbies()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Et voilà mes hobbies et passions !";
 
             return View();
         }
