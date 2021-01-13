@@ -24,6 +24,7 @@ namespace ApplicationQuiMeRessemble
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/eighties.css",
                       "~/Content/site.css"));
         }
     }

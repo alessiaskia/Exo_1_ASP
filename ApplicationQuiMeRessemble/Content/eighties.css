@@ -1,0 +1,48 @@
+﻿body {
+    background-color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 3rem;
+}
+
+h1, h2, h3 {
+    color: darkviolet;
+    font-weight: bold;
+    text-shadow: 3px 3px #FF0000;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    letter-spacing: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+h4 {
+    text-shadow: 1px 1px orange;
+    letter-spacing: 1.5rem;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.lead {
+    text-align: center;
+    color: blue;
+}
+
+p, li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+.center {
+    text-align:center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}

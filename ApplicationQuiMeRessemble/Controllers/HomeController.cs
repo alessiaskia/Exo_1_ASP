@@ -28,7 +28,7 @@ namespace ApplicationQuiMeRessemble.Controllers
         }
         public ActionResult Hobbies()
         {
-            ViewBag.Message = "Et voilà mes hobbies et passions !";
+            ViewBag.Message = "Et voilà mes hobbies et passions";
 
             return View();
         }
